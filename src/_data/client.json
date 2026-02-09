@@ -1,0 +1,15 @@
+{
+  "name": "Road Tech Services",
+  "email": "Road.tech7@gmail.com",
+  "phone": "248-781-0600",
+  "phoneFormatted": "(248) 781-0600",
+  "address": {
+    "lineOne": "Michigan, United States",
+    "lineTwo": "",
+    "city": "",
+    "county": "",
+    "postcode": "",
+    "mapLink": "https://maps.app.goo.gl/6BMKWSTq9Ghgo1JC7"
+  },
+  "domain": "https://roadtech7.com/"
+}

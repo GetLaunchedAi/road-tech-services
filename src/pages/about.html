@@ -1,0 +1,168 @@
+---
+layout: "base.html"
+description: "Learn about Road Tech Services’ commitment to convenient, reliable, and certified mobile repair for lawn mowers, snow blowers, and generators across Michigan. We bring expert service right to your home."
+metaTitle: "About Road Tech Services"
+tagTitle: "About"
+preloadImg: "/images/landing.png"
+preloadCSS: "/css/about.css"
+permalink: "about/"
+eleventyNavigation:
+  key: About Us
+  order: 300
+---
+
+<!-- ============================================ -->
+<!--                    LANDING                   -->
+<!-- ============================================ -->
+
+<section id="int-hero">
+  <h1 id="home-h">About Us</h1>
+  {% image './src/images/landing.png', 'Road Tech Services mobile repair in action', '', 'lazy',
+  '(max-width: 850px) 850px, 1920px'%}
+</section>
+
+<!-- ============================================ -->
+<!--                 Side By Side                 -->
+<!-- ============================================ -->
+
+<section id="sbs">
+  <div class="cs-container">
+    <!-- Left Image Section -->
+    <div class="cs-left">
+      {% image './src/images/mobilelawn/mower-repair-3.jpg', 'mobile lawn mower repair service',
+      'cs-picture cs-picture1', 'lazy'%}
+    </div>
+    <!-- Right Content Section-->
+    <div class="cs-right">
+      <span class="cs-topper">About Us</span>
+      <h2 class="cs-title">About Road Tech Services</h2>
+      <p class="cs-text">
+        Road Tech Services is a locally owned mobile repair business proudly serving homeowners across Michigan. 
+        We specialize in on-site repair and maintenance for lawn mowers, snow blowers, and generators, saving 
+        customers the hassle of transporting heavy equipment to a shop.
+      </p>
+      <p class="cs-text">
+        Our mission is simple: make small engine repair convenient, professional, and reliable. 
+        With expert certifications and same-day service available, we ensure your equipment is back up 
+        and running quickly — right in your driveway.
+      </p>
+
+      <div class="cs-flex-group">
+        <p class="cs-flex-p">
+          I’m Matt Olenzek, founder of Road Tech Services. As a Master Certified Technician for Briggs & Stratton, 
+          Silver-Level Certified in Stihl, and also certified in Kohler and Kawasaki, I’ve built this business 
+          to give homeowners an easier way to keep their outdoor equipment in peak condition. 
+          My goal is to deliver professional, same-day repair with honesty, care, and attention to detail.
+        </p>
+        <span class="cs-name">Matt Olenzek</span>
+        <span class="cs-job">Owner & Master Certified Technician</span>
+        <img class="cs-quote-icon" loading="lazy" decoding="async"
+          src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg" alt="quote icon" width="136"
+          height="77" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ -->
+<!--                    FAQ                       -->
+<!-- ============================================ -->
+
+<section id="faq-326">
+  <div class="cs-container">
+    <div class="cs-content">
+      <span class="cs-topper">FAQs</span>
+      <h2 class="cs-title">Frequently Asked Questions</h2>
+    </div>
+    <div class="cs-flex-group">
+      <ul class="cs-faq-group">
+        <li class="cs-faq-item active">
+          <button class="cs-button">
+            <span class="cs-button-text">
+              What equipment do you repair?
+            </span>
+          </button>
+          <p class="cs-item-p">
+            We provide mobile repair for lawn mowers, snow blowers, and generators. 
+            If you’re unsure, just give us a call and we’ll let you know if we can help.
+          </p>
+        </li>
+        <li class="cs-faq-item">
+          <button class="cs-button">
+            <span class="cs-button-text">
+              Do you offer same-day service?
+            </span>
+          </button>
+          <p class="cs-item-p">
+            Yes! In many cases, repairs can be completed the same day, 
+            provided the issue is described accurately and the necessary parts are available.
+          </p>
+        </li>
+        <li class="cs-faq-item">
+          <button class="cs-button">
+            <span class="cs-button-text">
+              Do I need to bring my equipment to you?
+            </span>
+          </button>
+          <p class="cs-item-p">
+            No — we come to you! Road Tech Services is a mobile repair service, 
+            so all work is completed at your home for maximum convenience.
+          </p>
+        </li>
+        <li class="cs-faq-item">
+          <button class="cs-button">
+            <span class="cs-button-text">
+              What certifications do you have?
+            </span>
+          </button>
+          <p class="cs-item-p">
+            Our technician is Master Certified with Briggs & Stratton, Silver-Level Certified with Stihl, 
+            and also certified with Kohler and Kawasaki — ensuring expert repair every time.
+          </p>
+        </li>
+        <li class="cs-faq-item">
+          <button class="cs-button">
+            <span class="cs-button-text">
+              Why choose Road Tech Services?
+            </span>
+          </button>
+          <p class="cs-item-p">
+            We make repair simple, fast, and stress-free. With professional certifications, 
+            mobile convenience, and reliable same-day service, Road Tech Services is the smart choice 
+            for keeping your equipment in top condition.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<script>
+  const faqItems = Array.from(document.querySelectorAll(".cs-faq-item"));
+  for (const item of faqItems) {
+    const onClick = () => {
+      item.classList.toggle("active");
+    };
+    item.addEventListener("click", onClick);
+  }
+</script>
+
+<!-- ============================================ -->
+<!--             Final Call to Action             -->
+<!-- ============================================ -->
+
+<section id="cta">
+  <div class="container">
+    <h2 class="title">
+      Keep Your Equipment Running <br />
+      With Road Tech Services
+    </h2>
+    <p>
+      Don’t waste time hauling your mower, snow blower, or generator to a shop. 
+      Contact Road Tech Services today for professional, same-day mobile repair.
+    </p>
+    <a href="/contact/" class="button-solid">Book a Service</a>
+  </div>
+  {% image './src/images/final_home_img.png', 'Road Tech Services mobile repair at work',
+  '', 'lazy', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920'%}
+</section>

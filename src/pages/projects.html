@@ -1,0 +1,82 @@
+---
+layout: "base.html"
+description: "Road Tech Services provides convenient mobile repair and maintenance for lawn mowers, snow blowers, and
+generators across Michigan. Save time and stress—our certified technician comes to you for same-day service."
+metaTitle: "Road Tech Services - Mobile Lawn Mower, Snow Blower & Generator Repair"
+tagTitle: "Projects"
+preloadImg: "/images/landing.png"
+preloadCSS: "/css/projects.css"
+permalink: "projects/"
+eleventyNavigation:
+  key: Projects
+  order: 300
+---
+
+<!-- ============================================ -->
+<!--                    LANDING                   -->
+<!-- ============================================ -->
+
+<section id="int-hero">
+  <h1 id="home-h">Our Work</h1>
+  {% image './src/images/landing.png', 'Road Tech Services mobile repair projects in Michigan', '', 'lazy', '(max-width:
+  400px) 400px, (max-width: 850px) 850px, 1920px'%}
+</section>
+
+<!-- ============================================ -->
+<!--                   Gallery                    -->
+<!-- ============================================ -->
+
+<section id="gallery">
+  <div class="cs-container">
+    <div class="cs-image-group">
+      <!-- Row 1-->
+      <div class="cs-row cs-row-1">
+        {% image './src/images/mobilelawn/mower-repair-1.jpg', 'lawn mower repair service', 'cs-picture cs-picture-1', 'lazy',
+        '(max-width: 600px) 200px, 400px'%}
+        {% image './src/images/portfolio/port-2.webp', 'snow blower tune-up project', 'cs-picture cs-picture-2', 'lazy',
+        '(max-width: 600px) 200px, 400px'%}
+        {% image './src/images/generators/generator-repair-1.jpg', 'generator repair', 'cs-picture cs-picture-3', 'lazy',
+        '(max-width: 600px) 200px, 400px'%}
+      </div>
+      <!-- Row 2 -->
+      <div class="cs-row cs-row-2">
+        {% image './src/images/snowblower_0.jpg', 'snow blower repair service', 'cs-picture cs-picture-1', 'lazy',
+        '(max-width: 600px) 200px, 400px'%}
+        {% image './src/images/portfolio/port-4.webp', 'engine troubleshooting and repair', 'cs-picture cs-picture-2',
+        'lazy', '(max-width: 600px) 200px, 400px'%}
+        {% image './src/images/mobilelawn/mower-repair-2.jpg', 'mower maintenance', 'cs-picture cs-picture-3', 'lazy',
+        '(max-width: 600px) 200px, 400px'%}
+      </div>
+      <!-- Row 3 -->
+      <div class="cs-row cs-row-3">
+        {% image './src/images/generators/generator-repair-4.jpg', 'generator maintenance service', 'cs-picture cs-picture-1',
+        'lazy', '(max-width: 600px) 200px, 400px'%}
+        {% image './src/images/snowblower_1.jpg', 'snow blower tune-up', 'cs-picture cs-picture-2', 'lazy',
+        '(max-width: 600px) 200px, 400px'%}
+        {% image './src/images/portfolio/port-6.webp', 'on-site small engine repair', 'cs-picture cs-picture-3', 'lazy',
+        '(max-width: 600px) 200px, 400px'%}
+      </div>
+    </div>
+    <a href="/contact" class="button-solid">Book a Service</a>
+  </div>
+</section>
+
+<!-- ============================================ -->
+<!--             Final Call to Action             -->
+<!-- ============================================ -->
+
+<section id="cta">
+  <div class="container">
+    <h2 class="title">
+      Reliable Repairs <br />
+      Brought to Your Door
+    </h2>
+    <p>
+      At Road Tech Services, we specialize in same-day, at-home repairs for lawn mowers, snow blowers, and generators.
+      No need to haul your equipment to a dealer—our certified technician comes to you and gets the job done right.
+    </p>
+    <a href="/contact.html" class="button-solid">Schedule Service</a>
+  </div>
+  {% image './src/images/final_home_img.png', 'mobile equipment repair service in action', '', 'lazy', '(max-width:
+  400px) 400px, (max-width: 850px) 850px, 1920px'%}
+</section>

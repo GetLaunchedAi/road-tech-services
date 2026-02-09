@@ -1,0 +1,232 @@
+---
+layout: "base.html"
+description: "Road Tech Services - Mobile Lawn Mower, Snow Blower, and Generator Repair Across Michigan"
+metaTitle: "Road Tech Services | Mobile Equipment Repair in Michigan"
+tagTitle: "Road Tech Services"
+preloadImg: "/images/landing.png"
+preloadCSS: "/css/local.css"
+permalink: "/"
+eleventyNavigation:
+  key: Home
+  order: 100
+---
+
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero">
+  <!-- <video autoplay muted loop playsinline class="cs-picture">
+    <source
+      src="/images/hero_vid.mov"
+      type="video/mp4"
+      autoplay
+      muted
+      loop
+      playsinline
+    />
+    Your browser does not support the video tag.
+  </video> -->
+  <div class="cs-overlay"></div>
+  <div class="cs-container">
+    <div class="cs-flex-group">
+      <span class="cs-topper">Certified. Reliable. On-Site Service.</span>
+      <h1 class="cs-title">
+        Mobile Equipment Repair Made Easy
+      </h1>
+      <p class="cs-text">
+        At Road Tech Services, we bring professional repair right to your doorstep.
+        From lawn mowers to snow blowers and generators, our certified technician ensures your equipment is running
+        smoothly — without the hassle of hauling it to a shop. Most repairs are completed the same day!
+      </p>
+      <a href="/lawn-mower-repair/" class="cs-button-solid">Explore Services</a>
+      <a href="/about/" class="cs-button-transparent">
+        <img class="cs-img" loading="lazy" decoding="async"
+          src="https://csimg.nyc3.digitaloceanspaces.com/Hero/play.svg" alt="play icon" width="17" height="17" />
+        Learn More
+      </a>
+    </div>
+  </div>
+  <!-- Background Image -->
+  {% image './src/images/hero_img.png', 'bannerimg', 'cs-picture', 'eager', '(max-width: 400px) 400px, (max-width:
+  850px) 850px, 1920px'%}
+</section>
+
+<!-- ============================================ -->
+<!--                  Services                    -->
+<!-- ============================================ -->
+
+<section id="services" class="services">
+  <div class="card">
+    <picture>
+      <img aria-hidden="true" decoding="async" src="/assets/svgs/service_1.svg" alt="lawn mower repair icon" width="48"
+        height="48" />
+    </picture>
+    <h2>Lawn Mower Repair</h2>
+    <p>
+      Expert mobile repair and maintenance for push and riding mowers — we’ll keep your lawn care equipment running
+      strong.
+    </p>
+  </div>
+  <div class="card">
+    <picture>
+      <img aria-hidden="true" decoding="async" src="/assets/svgs/service_2.svg" alt="snow blower repair icon" width="48"
+        height="48" />
+    </picture>
+    <h2>Snow Blower Service</h2>
+    <p>
+      Stay ready for winter with same-day mobile repair and tune-ups for snow blowers of all makes and models.
+    </p>
+  </div>
+  <div class="card">
+    <picture>
+      <img aria-hidden="true" decoding="async" src="/assets/svgs/service_3.svg" alt="generator repair icon" width="48"
+        height="48" />
+    </picture>
+    <h2>Generator Repair</h2>
+    <p>
+      Dependable repair and maintenance services to ensure your backup power is reliable when you need it most.
+    </p>
+  </div>
+</section>
+
+<!-- ============================================ -->
+<!--                 Side By Side                 -->
+<!-- ============================================ -->
+
+<section id="sbs">
+  <div class="cs-container">
+    <div class="cs-left">
+      {% image './src/images/mobilelawn/mower-repair-3.jpg', 'road tech mobile repair service', 'cs-picture cs-picture1', 'lazy'%}
+    </div>
+    <div class="cs-right">
+      <span class="cs-topper">About Us</span>
+      <h2 class="cs-title">About Road Tech Services</h2>
+      <p class="cs-text">
+        Road Tech Services was founded to make small engine repair more convenient for Michigan homeowners.
+        No more loading heavy equipment into your truck — we come to you.
+      </p>
+      <p class="cs-text">
+        With certifications in Briggs & Stratton (Master Certified), Stihl (Silver Level), Kohler, and Kawasaki,
+        our technician brings years of expertise directly to your driveway. Most issues can be resolved the same day
+        if parts are available.
+      </p>
+      <div class="cs-flex-group">
+        <p class="cs-flex-p">
+          I’m Matt Olenzek, owner of Road Tech Services. After years of hands-on technical work, I built this business
+          to save
+          people time, money, and stress. My goal is simple: provide reliable, professional, and convenient equipment
+          repair right at your home. Whether it’s your mower, snow blower, or generator, I’ll keep your equipment ready
+          for every season.
+        </p>
+        <span class="cs-name">Matt Olenzek</span>
+        <span class="cs-job">Owner & Master Certified Technician</span>
+        <img class="cs-quote-icon" loading="lazy" decoding="async"
+          src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg" alt="quote icon" width="136"
+          height="77" />
+      </div>
+      <a href="/about" class="button-solid">More About Us</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ -->
+<!--            Extra Content To Rank             -->
+<!-- ============================================ -->
+
+<section id="sbs-r">
+  <div class="cs-container">
+    <div class="cs-left">
+      {% image './src/images/generators/generator-repair-1.jpg', 'mobile lawn mower repair in Michigan',
+      'cs-picture cs-picture1', 'lazy'%}
+    </div>
+    <div class="cs-right">
+      <span class="cs-topper">Mobile Repair Experts</span>
+      <h2 class="cs-title">Why Choose Road Tech Services</h2>
+      <p class="cs-text">
+        We bring certified repair directly to your doorstep — saving you the hassle of transporting heavy equipment.
+      </p>
+      <p class="cs-text">
+        With same-day service available, transparent pricing, and expert certifications,
+        we make equipment repair stress-free. Our professional service ensures your mower, snow blower,
+        or generator is in top shape when you need it most.
+      </p>
+      <a href="/lawn-mower-repair/" class="button-solid">
+        Learn More About Our Services →
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ -->
+<!--                   Reviews                    -->
+<!-- ============================================ -->
+
+<section id="reviews">
+  <div class="cs-container">
+    <span class="cs-topper">Our Reviews</span>
+    <h2 class="cs-title">What Customers Say</h2>
+    <p class="cs-text">
+      Road Tech Services is proud to serve Michigan homeowners with fast, professional, and on-site equipment repair.
+      Here’s what our customers have to say.
+    </p>
+    <ul class="cs-card-group">
+      <li class="cs-item">
+        <p class="cs-item-p">
+          Road Tech came to my house and fixed my mower the same day. So convenient and professional — highly recommend!
+        </p>
+        <span class="cs-reviewer">
+          Sarah L.
+          <span class="cs-desc">Homeowner</span>
+        </span>
+        <img class="cs-item-stars" aria-hidden="true" loading="lazy" decoding="async"
+          src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg" alt="stars" width="96" height="16" />
+      </li>
+      <li class="cs-item">
+        <p class="cs-item-p">
+          Matt repaired my snow blower right in my driveway. Saved me so much hassle — I’ll definitely use Road Tech
+          again.
+        </p>
+        <span class="cs-reviewer">
+          James P.
+          <span class="cs-desc">Customer</span>
+        </span>
+        <img class="cs-item-stars" aria-hidden="true" loading="lazy" decoding="async"
+          src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg" alt="stars" width="96" height="16" />
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============================================ -->
+<!--             Final Call to Action             -->
+<!-- ============================================ -->
+
+<section id="cta">
+  <div class="container">
+    <h2 class="title">
+      Get Your Equipment Repaired <br />
+      Today
+    </h2>
+    <p>
+      Don’t waste time hauling your mower, snow blower, or generator to a shop.
+      Contact Road Tech Services for professional, same-day mobile repair.
+    </p>
+    <a href="/contact/" class="button-solid">Contact Us</a>
+  </div>
+  {% image './src/images/final_home_img.png', 'road tech mobile repair service at work', '', 'lazy',
+  '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
+</section>
+
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", (user) => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
