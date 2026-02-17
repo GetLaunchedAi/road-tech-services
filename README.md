@@ -233,7 +233,7 @@ layout: 'base.html'
 description: "Meta description for the page"
 metaTitle: 'Halford Bookkeeping'
 tagTitle: 'About'
-preloadImg: '/images/landing.png'
+preloadImg: '/images/projects_banner.jpg'
 preloadCSS: '/css/about.css'
 permalink: 'folder/page'
 eleventyNavigation:
@@ -263,7 +263,7 @@ date: 2022-12-16T19:40:18.253Z
 tags:
   - post
   - featured
-image: /images/blog/landing.png
+image: /images/blog/projects_banner.jpg
 imageAlt: Kitchen
 ---
 ```
